@@ -7,6 +7,9 @@ let package = Package(
         .library(name: "TDBadgedCell", targets: ["TDBadgedCell"])
     ],
     targets: [
-        .target(name: "TDBadgedCell")
+        .target(
+            name: "TDBadgedCell",
+            path: "."
+        )
     ]
 )
